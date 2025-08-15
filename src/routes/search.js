@@ -1,9 +1,4 @@
-// routes/search.js
-const express = require('express');
-const axios = require('axios');
-require('dotenv').config();
-
-const router = express.Router();
+const router = require('express').Router();
 
 // GET /search?keyword=concert&city=Boston
 router.get('/search', async (req, res) => {
